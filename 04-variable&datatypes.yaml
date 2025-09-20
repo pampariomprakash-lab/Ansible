@@ -10,4 +10,4 @@
   tasks:
     - name: Print app name
       debug:
-      msg: " Deploying {{ app_name }} on ports {{ ports }} in {{ config.env }}"      
+        msg: " Deploying {{ app_name }} on ports {{ ports }} in {{ config.env }}"      
