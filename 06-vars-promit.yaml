@@ -1,0 +1,13 @@
+- name: variables from promt
+  hots: web
+  vars_promt:
+  - name: Course
+    promot: Pleaes enter the course name
+  - name: Trainer
+    promt: Pleae enter the trainer name
+  - name: Duration
+    promt: Please enter the Duration
+  tasks:    
+  - name: print the course information
+    ansible.builtin.debug:
+    msg: " Hi, Iam learning {{ Course }}"
