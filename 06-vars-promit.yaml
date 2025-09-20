@@ -1,5 +1,5 @@
 - name: variables from promt
-  hots: web
+  hosts: web
   vars_promt:
   - name: Course
     promot: Pleaes enter the course name
