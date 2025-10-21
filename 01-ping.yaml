@@ -5,7 +5,7 @@
 #     ansible.builtin.ping:     
 
 -  name: ping the server
-   hosts: web
+   hosts: local hosts
    tasks:
    -  name: ping the server
       ansible.builtin.ping:
